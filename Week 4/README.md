@@ -8,6 +8,13 @@ Due to compatibility limitations, TheHive was not deployed; however, escalation 
 
 This project highlights practical SOC skills including threat detection, incident response, adversary emulation, and security analysis, aligning with real-world cybersecurity operations.
 
+During the implementation of this SOC project, I attempted to install and configure TheHive (case management platform) within a virtual machine environment. However, the setup could not be successfully completed due to the following constraints:
+
+Compatibility Issues: TheHive requires specific OS versions and dependencies, which conflicted with the current VM configuration.
+Resource Limitations: The available system resources (RAM, CPU, and storage) were insufficient to support TheHive and its dependencies alongside other SOC tools such as Wazuh and Elastic Stack.
+Dependency Conflicts: Running multiple heavy services simultaneously in a limited VM environment caused performance degradation and installation failures.
+
+
 1. SOC Incident Response Lifecycle Methodology
 
 The project follows a structured SOC workflow lifecycle, ensuring a systematic approach to handling security incidents:
